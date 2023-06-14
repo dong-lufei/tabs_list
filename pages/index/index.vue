@@ -67,13 +67,13 @@
 
 			.tabbar-scroll {
 				white-space: nowrap;
-				// 谷歌隐藏滚动条
+				// 谷歌浏览器隐藏滚动条
 				::-webkit-scrollbar {
 					display: none;
 				}
-				// Firefox 隐藏滚动条
+				// Firefox 浏览器隐藏滚动条
 				overflow: -moz-scrollbars-none;
-				// IE11 隐藏滚动条
+				// IE11 浏览器隐藏滚动条
 				-ms-overflow-style: none;
 
 				.tabbar-item {
